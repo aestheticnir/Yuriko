@@ -79,7 +79,7 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-YURIKO_IMG = "https://telegra.ph/file/8b6f8f2bb4ff3912634c7.jpg"
+YURIKO_IMG = "https://t.me/chitchat10/1349301"
 
 PM_START_TEXT = """
 *👋 Hello {} !*
@@ -90,7 +90,7 @@ PM_START_TEXT = """
 × *Uᴘᴛɪᴍᴇ:* `{}`
 × `{}` *Uꜱᴇʀ, Aᴄʀᴏꜱꜱ* `{}` *Cʜᴀᴛꜱ.*
 ────────────────────────
-✗ *Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ DᴇCᴏᴅᴇ!*
+✗ *Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: DADDY!*
 """
 
 buttons = [
@@ -127,7 +127,7 @@ HELP_STRINGS = """
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- @PiroXPower's 💕"""
+ 💕"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -256,7 +256,7 @@ def start(update: Update, context: CallbackContext):
                         ),
                         InlineKeyboardButton(
                             text="📢 Updates",
-                            url="https://t.me/DeeCodeBots",
+                            url="",
                         ),
                     ]
                 ]
